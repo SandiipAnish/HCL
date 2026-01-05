@@ -1,9 +1,10 @@
 import { FormProvider } from "./context/FormContext"
+import FormBuilder from "./components/builder/FormBuilder"
 
 const App = () => {
   return (
     <FormProvider>
-      <h1>Dynamic Form Builder</h1>
+      <FormBuilder />
     </FormProvider>
   )
 }
